@@ -1,0 +1,8 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>co.gm4</groupId>
+  <artifactId>GM4_UndeadPlayers</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>GM4_UndeadPlayers</name>
+  <description>A bukkit plugin implementation of the Gamemode 4 module Undead Players</description>
+</project>
