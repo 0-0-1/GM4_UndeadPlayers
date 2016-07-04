@@ -15,11 +15,11 @@ import co.gm4.GM4_UndeadPlayers.GM4_UndeadPlayers;
 
 public class DeathEvent implements Listener {
 
-	private GM4_UndeadPlayers plugin;
+	//private GM4_UndeadPlayers plugin;
 	
 	public DeathEvent(GM4_UndeadPlayers plugin)
 	{
-		this.plugin = plugin;
+		//this.plugin = plugin;
 		plugin.getServer().getPluginManager().registerEvents(this, plugin);
 	}
 	
