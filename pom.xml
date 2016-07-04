@@ -3,6 +3,38 @@
   <groupId>co.gm4</groupId>
   <artifactId>GM4_UndeadPlayers</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>GM4_UndeadPlayers</name>
-  <description>A bukkit plugin implementation of the Gamemode 4 module Undead Players</description>
+  <build>
+    <finalName>GM4_UndeadPlayers</finalName>
+    <sourceDirectory>src/main/java</sourceDirectory>
+    <resources>
+      <resource>
+        <targetPath>.</targetPath>
+        <filtering>true</filtering>
+        <directory>${basedir}/src/main/resources/</directory>
+        <includes>
+          <include>plugin.yml</include>
+        </includes>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <repositories>
+  </repositories>
+  <dependencies>
+  	<dependency>
+      <groupId>org.bukkit</groupId>
+      <artifactId>craftbukkit</artifactId>
+      <version>1.10.2-R0.1-SNAPSHOT</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
 </project>
