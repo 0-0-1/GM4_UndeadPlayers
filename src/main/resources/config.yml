@@ -1,0 +1,5 @@
+zombieName: Undead Player
+canPickUpItems: true
+nameTagVisible: true
+canDespawn: false
+accomplishedPlayers:
